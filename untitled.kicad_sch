@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d36d9cd3-cfae-4e57-8525-55a8962075e5")
+	(paper "A4" portrait)
+	(lib_symbols)
+	(sheet
+		(at 34.29 36.83)
+		(size 121.92 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "266ed6db-bf88-40c2-a324-1d8d44147eb4")
+		(property "Sheetname" "crossbar_u"
+			(at 34.29 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "crossbar_u.kicad_sch"
+			(at 34.29 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "analog_NN"
+				(path "/8de080c9-ac72-4350-b5d3-2d90d26f0ccc/be605785-53c8-4b82-8661-40dd21e1d9cd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 124.46)
+		(size 120.65 119.38)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44f77d15-27bc-4bd2-a9c2-ab843c99b200")
+		(property "Sheetname" "crossbar_h"
+			(at 36.83 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "crossbar_h.kicad_sch"
+			(at 36.83 244.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "analog_NN"
+				(path "/8de080c9-ac72-4350-b5d3-2d90d26f0ccc/be605785-53c8-4b82-8661-40dd21e1d9cd"
+					(page "6")
+				)
+			)
+		)
+	)
+)
