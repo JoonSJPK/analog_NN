@@ -4608,7 +4608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+		(property "Sim.Pins" "1=out 2=vee 3=inp 4=inn 5=vcc"
 			(at 110.49 170.18 0)
 			(effects
 				(font
@@ -4627,7 +4627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KIPRJMOD}/TLV9061_generic.lib"
 			(at 110.49 170.18 0)
 			(effects
 				(font
@@ -4636,7 +4636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_opamp"
+		(property "Sim.Name" "TLV9061"
 			(at 110.49 170.18 0)
 			(effects
 				(font
@@ -5536,7 +5536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+		(property "Sim.Pins" "1=out 2=vee 3=inp 4=inn 5=vcc"
 			(at 217.17 179.07 0)
 			(effects
 				(font
@@ -5555,7 +5555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KIPRJMOD}/TLV9061_generic.lib"
 			(at 217.17 179.07 0)
 			(effects
 				(font
@@ -5564,7 +5564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_opamp"
+		(property "Sim.Name" "TLV9061"
 			(at 217.17 179.07 0)
 			(effects
 				(font
@@ -6142,7 +6142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+		(property "Sim.Pins" "1=out 2=vee 3=inp 4=inn 5=vcc"
 			(at 110.49 127 0)
 			(effects
 				(font
@@ -6161,7 +6161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KIPRJMOD}/TLV9061_generic.lib"
 			(at 110.49 127 0)
 			(effects
 				(font
@@ -6170,7 +6170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_opamp"
+		(property "Sim.Name" "TLV9061"
 			(at 110.49 127 0)
 			(effects
 				(font
@@ -6499,7 +6499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+		(property "Sim.Pins" "1=out 2=vee 3=inp 4=inn 5=vcc"
 			(at 110.49 213.36 0)
 			(effects
 				(font
@@ -6518,7 +6518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KIPRJMOD}/TLV9061_generic.lib"
 			(at 110.49 213.36 0)
 			(effects
 				(font
@@ -6527,7 +6527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_opamp"
+		(property "Sim.Name" "TLV9061"
 			(at 110.49 213.36 0)
 			(effects
 				(font
@@ -6901,7 +6901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+		(property "Sim.Pins" "1=out 2=vee 3=inp 4=inn 5=vcc"
 			(at 110.49 259.08 0)
 			(effects
 				(font
@@ -6920,7 +6920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "Sim.Library" "${KIPRJMOD}/TLV9061_generic.lib"
 			(at 110.49 259.08 0)
 			(effects
 				(font
@@ -6929,7 +6929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_opamp"
+		(property "Sim.Name" "TLV9061"
 			(at 110.49 259.08 0)
 			(effects
 				(font

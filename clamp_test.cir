@@ -1,0 +1,27 @@
+* TLV9061 inverter-around-VREF clamp test bench
+.include "/Users/joon/Projects/Wim/analog_NN/TLV9061_generic.lib"
+
+* --- supplies ---
+VCC  vcc  0  DC 3.3
+VREF vref 0  DC 1.65
+
+* --- input: 1 kHz sine centered on VREF, +/-1.2 V ---
+Vin  vin  0  SIN(1.65 1.2 1k)
+
+* --- inverter, gain = -Rf/Rin = -2  (deliberately overdriven) ---
+Rin  vin  ninv 10k
+Rf   out  ninv 20k
+* model node order: out vee inp inn vcc
+XU1  out  0  vref  ninv  vcc  TLV9061
+
+.tran 5u 3m
+.control
+run
+let ideal_hi = 1.65 + 2*1.2
+let ideal_lo = 1.65 - 2*1.2
+print maximum(v(out)) minimum(v(out))
+print maximum(v(vin)) minimum(v(vin))
+echo "ideal (unclamped) output swing would be:"
+print ideal_hi ideal_lo
+.endc
+.end

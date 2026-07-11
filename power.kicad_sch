@@ -6586,6 +6586,43 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=out 2=vee 3=inp 4=inn 5=vcc"
+			(at 113.03 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 113.03 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KIPRJMOD}/TLV9061_generic.lib"
+			(at 113.03 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "TLV9061"
+			(at 113.03 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "5a116bc4-079e-4b12-96cd-5e490d7fc587")
 		)

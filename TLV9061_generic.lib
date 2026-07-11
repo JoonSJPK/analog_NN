@@ -1,0 +1,37 @@
+* ============================================================
+* TLV9061_generic.lib
+* Generic rail-to-rail I/O op-amp macromodel, approximating the
+* TI TLV9061 (single, SOT-23-5) for FUNCTIONAL ngspice simulation.
+*
+* This is NOT the TI datasheet model. It captures the behavior that
+* matters for this board:
+*   - high open-loop DC gain      (~100 dB)
+*   - gain-bandwidth product      (~10 MHz, single dominant pole)
+*   - rail-to-rail OUTPUT clamp   (output saturates ~15 mV from each rail)
+*   - very high differential input impedance
+*
+* It intentionally ignores: input offset/bias, slew-rate limiting,
+* noise, supply current, temperature. Swap in TI's PSpice model later
+* for datasheet accuracy (same pin map -> drop-in replacement).
+*
+* Node order matches the KiCad symbol pin numbers (SOT-23-5):
+*   node 1 = OUT   (symbol pin 1)
+*   node 2 = V-    (symbol pin 2)
+*   node 3 = IN+   (symbol pin 3)
+*   node 4 = IN-   (symbol pin 4)
+*   node 5 = V+    (symbol pin 5)
+* -> KiCad pin assignment is straight-through: 1=1 2=2 3=3 4=4 5=5
+* ============================================================
+.SUBCKT TLV9061 out vee inp inn vcc
+* --- differential input (high impedance) ---
+Rin   inp inn 1T
+* --- transconductance + dominant pole ---
+*   Aol = Gm * Rp        = 1m * 100Meg = 1e5   (100 dB)
+*   GBW = Gm / (2*pi*Cp)  = 1m / (2*pi*15.9p) ~ 10 MHz
+Gm    0  ng  inp inn 1m
+Rp    ng 0   100Meg
+Cp    ng 0   15.9p
+* --- output stage: clamp internal node to the supply rails (RRIO) ---
+Bclamp nc 0  V = min(max(V(ng), V(vee)+0.015), V(vcc)-0.015)
+Rout  nc out 100
+.ENDS TLV9061
