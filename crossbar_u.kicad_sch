@@ -5189,7 +5189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 35.56 214.6301 0)
 			(effects
 				(font
@@ -5412,7 +5412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 111.76 147.3201 0)
 			(effects
 				(font
@@ -5482,7 +5482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 177.8 124.4599 0)
 			(effects
 				(font
@@ -5963,7 +5963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 73.66 214.6301 0)
 			(effects
 				(font
@@ -6454,7 +6454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 177.8 191.7699 0)
 			(effects
 				(font
@@ -6763,7 +6763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 63.5 124.4599 0)
 			(effects
 				(font
@@ -6833,7 +6833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 101.6 57.1499 0)
 			(effects
 				(font
@@ -7037,7 +7037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 73.66 80.0101 0)
 			(effects
 				(font
@@ -7939,7 +7939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 111.76 80.0101 0)
 			(effects
 				(font
@@ -8076,7 +8076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 149.86 147.3201 0)
 			(effects
 				(font
@@ -8213,7 +8213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 139.7 57.1499 0)
 			(effects
 				(font
@@ -8369,7 +8369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 101.6 191.7699 0)
 			(effects
 				(font
@@ -8946,7 +8946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 111.76 214.6301 0)
 			(effects
 				(font
@@ -9083,7 +9083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 63.5 57.1499 0)
 			(effects
 				(font
@@ -9287,7 +9287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 149.86 214.6301 0)
 			(effects
 				(font
@@ -9510,7 +9510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 35.56 80.0101 0)
 			(effects
 				(font
@@ -9580,7 +9580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 149.86 80.0101 0)
 			(effects
 				(font
@@ -9650,7 +9650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 73.66 147.3201 0)
 			(effects
 				(font
@@ -10648,7 +10648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 139.7 124.4599 0)
 			(effects
 				(font
@@ -11005,7 +11005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 177.8 57.1499 0)
 			(effects
 				(font
@@ -11075,7 +11075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 63.5 191.7699 0)
 			(effects
 				(font
@@ -11145,7 +11145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 101.6 124.4599 0)
 			(effects
 				(font
@@ -11215,7 +11215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 35.56 147.3201 0)
 			(effects
 				(font
@@ -11792,7 +11792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 139.7 191.7699 0)
 			(effects
 				(font
