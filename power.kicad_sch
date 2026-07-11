@@ -3469,14 +3469,14 @@
 		(dnp no)
 		(uuid "26296197-b72f-4f49-b4ae-689c8f986f3b")
 		(property "Reference" "R48"
-			(at 93.472 70.358 90)
+			(at 94.996 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1k"
 			(at 90.678 70.358 90)
 			(effects
 				(font
@@ -4910,14 +4910,14 @@
 		(dnp no)
 		(uuid "cde24689-9b87-4bea-a21a-d57ca2ff7336")
 		(property "Reference" "R49"
-			(at 93.726 77.47 90)
+			(at 94.742 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1k"
 			(at 90.678 77.47 90)
 			(effects
 				(font

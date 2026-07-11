@@ -3459,7 +3459,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10M"
 			(at 118.618 80.772 90)
 			(effects
 				(font
@@ -3633,14 +3633,14 @@
 		(dnp no)
 		(uuid "0e6bddc9-05e7-4443-b413-a1c1ed8a5059")
 		(property "Reference" "R46"
-			(at 121.92 176.022 90)
+			(at 122.936 176.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10M"
 			(at 118.618 176.022 90)
 			(effects
 				(font
@@ -3822,7 +3822,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 106.68 191.77 90)
 			(effects
 				(font
@@ -4203,7 +4203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 100.33 153.6699 0)
 			(effects
 				(font
@@ -4271,8 +4271,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 82.296 120.65 90)
+		(property "Value" "10k"
+			(at 84.836 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4339,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 106.68 96.52 90)
 			(effects
 				(font
@@ -4475,7 +4475,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 106.68 49.53 90)
 			(effects
 				(font
@@ -4677,7 +4677,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 82.296 73.66 90)
 			(effects
 				(font
@@ -4744,7 +4744,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 56.896 168.91 90)
 			(effects
 				(font
@@ -4925,7 +4925,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 82.296 168.91 90)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 56.896 215.9 90)
 			(effects
 				(font
@@ -5354,7 +5354,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 106.68 144.78 90)
 			(effects
 				(font
@@ -5423,7 +5423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 77.47 123.1899 0)
 			(effects
 				(font
@@ -5560,7 +5560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 100.33 58.4199 0)
 			(effects
 				(font
@@ -5628,7 +5628,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 56.896 73.66 90)
 			(effects
 				(font
@@ -5695,7 +5695,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 82.296 215.9 90)
 			(effects
 				(font
@@ -5830,7 +5830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 77.47 76.1999 0)
 			(effects
 				(font
@@ -5957,14 +5957,14 @@
 		(dnp no)
 		(uuid "9a42ce15-03eb-4a6a-9ec3-4f9364243045")
 		(property "Reference" "R45"
-			(at 121.92 127.762 90)
+			(at 122.936 127.762 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10M"
 			(at 118.618 127.762 90)
 			(effects
 				(font
@@ -6158,14 +6158,14 @@
 		(dnp no)
 		(uuid "a00204b1-9490-4313-81f2-b4a8da3ad097")
 		(property "Reference" "R47"
-			(at 121.92 223.012 90)
+			(at 122.428 223.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10M"
 			(at 118.618 223.012 90)
 			(effects
 				(font
@@ -7068,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 56.896 120.65 90)
 			(effects
 				(font
@@ -7251,7 +7251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 77.47 218.4399 0)
 			(effects
 				(font
@@ -7321,7 +7321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 77.47 171.4499 0)
 			(effects
 				(font
@@ -7685,7 +7685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 100.33 105.4099 0)
 			(effects
 				(font
@@ -7889,7 +7889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 100.33 200.6599 0)
 			(effects
 				(font
