@@ -3448,6 +3448,28 @@
 			)
 		)
 	)
+	(global_label "CLK"
+		(shape output)
+		(at 219.71 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d036701-d494-44cf-b2ab-9cd51067bc73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.2633 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "data_n"
 		(shape output)
 		(at 83.82 82.55 0)
@@ -3483,6 +3505,28 @@
 		(uuid "6884c88d-a083-4f57-98be-3eebb79df061")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 26.4062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape output)
+		(at 219.71 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f926042-576f-4d5c-bcfd-195ff66300f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.7795 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 149.5552 68.58 0)
 			(effects
 				(font
@@ -3808,7 +3852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 147.32 122.8852 0)
 			(effects
 				(font
@@ -3941,7 +3985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 79.7052 64.77 0)
 			(effects
 				(font
@@ -4953,7 +4997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 101.2952 62.23 0)
 			(effects
 				(font
@@ -5022,7 +5066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 190.1952 52.07 0)
 			(effects
 				(font
@@ -5156,7 +5200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 104.14 47.2948 0)
 			(effects
 				(font
@@ -5358,7 +5402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 217.17 33.9852 0)
 			(effects
 				(font
@@ -5425,7 +5469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 67.6148 41.91 0)
 			(effects
 				(font
@@ -5628,7 +5672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 147.32 112.7252 0)
 			(effects
 				(font
@@ -5764,7 +5808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 217.17 46.6852 0)
 			(effects
 				(font
@@ -5921,7 +5965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 217.17 40.3352 0)
 			(effects
 				(font
@@ -6463,7 +6507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 217.17 53.0352 0)
 			(effects
 				(font
