@@ -1,0 +1,10 @@
+07:03:30.1857 [INFO] System bus created.
+07:03:30.5041 [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+07:03:30.5914 [INFO] sysbus: Loading block of 92 bytes length at 0x10000000.
+07:03:30.6047 [INFO] gpio: Logging is already enabled
+07:03:30.6389 [INFO] cpu0: Guessing VectorTableOffset value to be 0x10000000.
+07:03:30.6431 [INFO] cpu0: Setting initial values: PC = 0x10000009, SP = 0x20042000.
+07:03:30.6439 [INFO] mcu: Machine started.
+07:03:30.6522 [INFO] gpio: [cpu0: 0x10000018] WriteUInt32 to 0x10 (OutputEnableSet), value 0xFF
+07:03:30.6548 [INFO] mcu: Machine paused.
+07:03:30.6615 [INFO] mcu: Disposed.

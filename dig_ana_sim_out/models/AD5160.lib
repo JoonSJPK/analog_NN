@@ -1,0 +1,33 @@
+* ============================================================
+* AD5160.lib  —  behavioral model of the Analog Devices AD5160
+* 256-position SPI digital potentiometer, for functional ngspice
+* simulation of the analog_NN crossbar (pots used as synaptic weights).
+*
+* The resistive element A-W-B is modeled as two code-programmed
+* resistors:
+*     R_WB = (code/256)*R_AB + R_W        (wiper -> B)
+*     R_WA = ((256-code)/256)*R_AB + R_W  (wiper -> A)
+* with code in 0..255, R_AB the end-to-end resistance (part option;
+* 10 k default here), and R_W ~ 60 ohm wiper resistance.
+*
+* Node order matches the KiCad symbol pin NUMBERS (SOT-23-8):
+*   1 = W    (wiper)
+*   2 = VDD
+*   3 = GND
+*   4 = CLK  (SPI clock)   \
+*   5 = SDI  (SPI data)     >  digital control — set by shift chain / MCU;
+*   6 = ~CS  (chip select) /   the resulting wiper code arrives as a param.
+*   7 = B
+*   8 = A
+* The digital pins are not electrically modeled here (the digital/firmware
+* simulator drives them and the bridge converts the SPI code -> `code`).
+* Weak pulldowns keep those nets from floating in analog-only runs.
+* ============================================================
+.subckt AD5160 W VDD GND CLK SDI CS B A PARAMS: code=128 rab=10k rw=60
+Rwb W B {(code/256)*rab + rw}
+Rwa W A {((256-code)/256)*rab + rw}
+* keep SPI control nets solvable when no digital driver is present
+Rclk CLK 0 1G
+Rsdi SDI 0 1G
+Rcs  CS  0 1G
+.ends AD5160

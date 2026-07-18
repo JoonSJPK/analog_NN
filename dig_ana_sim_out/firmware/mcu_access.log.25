@@ -1,0 +1,19 @@
+06:29:18.2559 [INFO] System bus created.
+06:29:18.5957 [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+06:29:18.6893 [INFO] sysbus: Loading block of 1136 bytes length at 0x10000000.
+06:29:18.6932 [INFO] sysbus: Loading block of 30 bytes length at 0x10000470.
+06:29:18.7028 [INFO] gpio: Logging is already enabled
+06:29:18.7397 [INFO] cpu0: Guessing VectorTableOffset value to be 0x10000000.
+06:29:18.7439 [INFO] cpu0: Setting initial values: PC = 0x100000DD, SP = 0x20042000.
+06:29:18.7447 [INFO] mcu: Machine started.
+06:29:18.7531 [INFO] gpio: [cpu0: 0x100000EE] WriteUInt32 to 0x10 (OutputEnableSet), value 0xFF
+06:29:18.7544 [INFO] gpio: [cpu0: 0x10000166] WriteUInt32 to 0x4 (DataOutput), value 0x1
+06:29:18.7545 [INFO] gpio: [cpu0: 0x10000176] WriteUInt32 to 0x4 (DataOutput), value 0x0
+06:29:18.7547 [INFO] gpio: [cpu0: 0x100002C2] WriteUInt32 to 0x4 (DataOutput), value 0x82
+06:29:18.7562 [INFO] gpio: [cpu0: 0x100002C2] WriteUInt32 to 0x4 (DataOutput), value 0x63
+06:29:18.7570 [INFO] gpio: [cpu0: 0x100002C2] WriteUInt32 to 0x4 (DataOutput), value 0x5B
+06:29:18.7578 [INFO] gpio: [cpu0: 0x100002C2] WriteUInt32 to 0x4 (DataOutput), value 0x59
+06:29:18.7586 [INFO] gpio: [cpu0: 0x100002C2] WriteUInt32 to 0x4 (DataOutput), value 0x58
+06:29:18.7664 [INFO] gpio: [cpu0: 0x100002C2] WriteUInt32 to 0x4 (DataOutput), value 0x58 (10)
+06:29:18.7664 [INFO] mcu: Machine paused.
+06:29:18.7733 [INFO] mcu: Disposed.

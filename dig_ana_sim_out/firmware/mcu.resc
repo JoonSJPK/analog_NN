@@ -1,0 +1,15 @@
+using sysbus
+mach create "mcu"
+machine LoadPlatformDescription @/Users/joon/Projects/Wim/analog_NN/dig_ana_sim_out/firmware/mcu.repl
+
+# quieten the monitor; we drive everything from the script
+logLevel 3
+showAnalyzer uart0
+sysbus LoadELF @/Users/joon/Projects/Wim/analog_NN/firmware/firmware.elf
+
+logFile @/Users/joon/Projects/Wim/analog_NN/dig_ana_sim_out/firmware/mcu_gpio.log
+sysbus LogPeripheralAccess gpio true
+
+# run for a bounded amount of virtual time then stop
+emulation RunFor "0.0005"
+quit

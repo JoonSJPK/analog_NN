@@ -1,0 +1,23 @@
+// RP2040-mapped Cortex-M0+ platform for dig_ana_sim firmware emulation
+rom: Memory.MappedMemory @ sysbus 0x00000000
+    size: 0x00004000
+
+flash: Memory.MappedMemory @ sysbus 0x10000000
+    size: 0x01000000
+
+sram: Memory.MappedMemory @ sysbus 0x20000000
+    size: 0x00042000
+
+nvic: IRQControllers.NVIC @ {
+    sysbus new Bus.BusPointRegistration { address: 0xE000E000; cpu: cpu0 }
+}
+    -> cpu0@0
+    systickFrequency: 12000000
+
+cpu0: CPU.CortexM @ sysbus
+    cpuType: "cortex-m0+"
+    nvic: nvic
+
+gpio: GPIOPort.ARM_AHB_GPIO @ sysbus 0x40014000
+
+uart0: UART.PL011 @ sysbus 0x40034000

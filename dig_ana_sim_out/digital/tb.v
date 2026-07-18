@@ -1,0 +1,90 @@
+`timescale 1ns/1ps
+module tb;
+    reg RCLK = 1'b0;
+    reg SRCLK = 1'b0;
+    reg ser = 1'b0;
+    wire CS11;
+    wire CS11_h;
+    wire CS11_neg;
+    wire CS11_neg_h;
+    wire CS12;
+    wire CS12_h;
+    wire CS12_neg;
+    wire CS12_neg_h;
+    wire CS13;
+    wire CS13_h;
+    wire CS13_neg;
+    wire CS13_neg_h;
+    wire CS14_h;
+    wire CS14_neg_h;
+    wire CS21;
+    wire CS21_h;
+    wire CS21_neg;
+    wire CS21_neg_h;
+    wire CS22;
+    wire CS22_h;
+    wire CS22_neg;
+    wire CS22_neg_h;
+    wire CS23;
+    wire CS23_h;
+    wire CS23_neg;
+    wire CS23_neg_h;
+    wire CS24_h;
+    wire CS24_neg_h;
+    wire CS31;
+    wire CS31_h;
+    wire CS31_neg;
+    wire CS31_neg_h;
+    wire CS32;
+    wire CS32_h;
+    wire CS32_neg;
+    wire CS32_neg_h;
+    wire CS33;
+    wire CS33_h;
+    wire CS33_neg;
+    wire CS33_neg_h;
+    wire CS34_h;
+    wire CS34_neg_h;
+    wire CS41;
+    wire CS41_h;
+    wire CS41_neg;
+    wire CS41_neg_h;
+    wire CS42;
+    wire CS42_h;
+    wire CS42_neg;
+    wire CS42_neg_h;
+    wire CS43;
+    wire CS43_h;
+    wire CS43_neg;
+    wire CS43_neg_h;
+    wire CS44_h;
+    wire CS44_neg_h;
+    wire Wo1;
+    wire Wo1_neg;
+    wire Wo2;
+    wire Wo2_neg;
+    wire Wo3;
+    wire Wo3_neg;
+    wire Wo4;
+    wire Wo4_neg;
+    wire unconnected__U39_QH__Pad9_;
+    analog_NN_digital dut ( .RCLK(RCLK), .SRCLK(SRCLK), .ser(ser), .CS11(CS11), .CS11_h(CS11_h), .CS11_neg(CS11_neg), .CS11_neg_h(CS11_neg_h), .CS12(CS12), .CS12_h(CS12_h), .CS12_neg(CS12_neg), .CS12_neg_h(CS12_neg_h), .CS13(CS13), .CS13_h(CS13_h), .CS13_neg(CS13_neg), .CS13_neg_h(CS13_neg_h), .CS14_h(CS14_h), .CS14_neg_h(CS14_neg_h), .CS21(CS21), .CS21_h(CS21_h), .CS21_neg(CS21_neg), .CS21_neg_h(CS21_neg_h), .CS22(CS22), .CS22_h(CS22_h), .CS22_neg(CS22_neg), .CS22_neg_h(CS22_neg_h), .CS23(CS23), .CS23_h(CS23_h), .CS23_neg(CS23_neg), .CS23_neg_h(CS23_neg_h), .CS24_h(CS24_h), .CS24_neg_h(CS24_neg_h), .CS31(CS31), .CS31_h(CS31_h), .CS31_neg(CS31_neg), .CS31_neg_h(CS31_neg_h), .CS32(CS32), .CS32_h(CS32_h), .CS32_neg(CS32_neg), .CS32_neg_h(CS32_neg_h), .CS33(CS33), .CS33_h(CS33_h), .CS33_neg(CS33_neg), .CS33_neg_h(CS33_neg_h), .CS34_h(CS34_h), .CS34_neg_h(CS34_neg_h), .CS41(CS41), .CS41_h(CS41_h), .CS41_neg(CS41_neg), .CS41_neg_h(CS41_neg_h), .CS42(CS42), .CS42_h(CS42_h), .CS42_neg(CS42_neg), .CS42_neg_h(CS42_neg_h), .CS43(CS43), .CS43_h(CS43_h), .CS43_neg(CS43_neg), .CS43_neg_h(CS43_neg_h), .CS44_h(CS44_h), .CS44_neg_h(CS44_neg_h), .Wo1(Wo1), .Wo1_neg(Wo1_neg), .Wo2(Wo2), .Wo2_neg(Wo2_neg), .Wo3(Wo3), .Wo3_neg(Wo3_neg), .Wo4(Wo4), .Wo4_neg(Wo4_neg), .unconnected__U39_QH__Pad9_(unconnected__U39_QH__Pad9_) );
+    integer fd, code, i, dt;
+    reg [8*32:1] line;
+    initial begin
+        $dumpfile("dump.vcd");
+        $dumpvars(0, tb);
+        fd = $fopen("stim.txt", "r");
+        if (fd == 0) begin $finish; end
+        while (!$feof(fd)) begin
+            code = $fscanf(fd, "%d", dt);
+            if (code != 1) begin i = $fgetc(fd); end
+            code = $fscanf(fd, "%d", RCLK);
+            code = $fscanf(fd, "%d", SRCLK);
+            code = $fscanf(fd, "%d", ser);
+            #(dt);
+        end
+        $fclose(fd);
+        #1 $finish;
+    end
+endmodule

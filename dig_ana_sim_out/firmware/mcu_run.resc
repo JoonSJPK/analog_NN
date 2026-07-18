@@ -1,0 +1,8 @@
+using sysbus
+logFile @/Users/joon/Projects/Wim/analog_NN/dig_ana_sim_out/firmware/mcu_access.log
+mach create "mcu"
+machine LoadPlatformDescription @/Users/joon/Projects/Wim/analog_NN/dig_ana_sim_out/firmware/mcu.repl
+sysbus LoadELF @/Users/joon/Projects/Wim/analog_NN/firmware/firmware.elf
+sysbus LogPeripheralAccess gpio true
+emulation RunFor "0.0005"
+quit

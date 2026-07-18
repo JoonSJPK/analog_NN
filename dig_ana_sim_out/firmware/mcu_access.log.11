@@ -1,0 +1,71 @@
+06:24:44.9528 [INFO] System bus created.
+06:24:45.2898 [WARNING] Translation cache size 536870912 is larger than maximum allowed 134217728. It will be clamped to maximum
+06:24:45.3821 [INFO] sysbus: Loading block of 976 bytes length at 0x10000000.
+06:24:45.3860 [INFO] sysbus: Loading block of 30 bytes length at 0x100003D0.
+06:24:45.3956 [INFO] gpio: Logging is already enabled
+06:24:45.4320 [INFO] cpu0: Guessing VectorTableOffset value to be 0x10000000.
+06:24:45.4361 [INFO] cpu0: Setting initial values: PC = 0x100000DD, SP = 0x20042000.
+06:24:45.4369 [INFO] mcu: Machine started.
+06:24:45.4453 [INFO] gpio: [cpu0: 0x100000F4] WriteUInt32 to 0x10 (OutputEnableSet), value 0xFF
+06:24:45.4465 [INFO] gpio: [cpu0: 0x10000162] WriteUInt32 to 0x4 (DataOutput), value 0x1
+06:24:45.4467 [INFO] gpio: [cpu0: 0x10000172] WriteUInt32 to 0x4 (DataOutput), value 0x0
+06:24:45.4468 [INFO] gpio: [cpu0: 0x1000035A] WriteUInt32 to 0x4 (DataOutput), value 0x80
+06:24:45.4479 [INFO] gpio: [cpu0: 0x1000035A] WriteUInt32 to 0x4 (DataOutput), value 0x7B
+06:24:45.4484 [INFO] gpio: [cpu0: 0x1000035A] WriteUInt32 to 0x4 (DataOutput), value 0x77
+06:24:45.4489 [INFO] gpio: [cpu0: 0x1000035A] WriteUInt32 to 0x4 (DataOutput), value 0x73
+06:24:45.4493 [INFO] gpio: [cpu0: 0x1000035A] WriteUInt32 to 0x4 (DataOutput), value 0x6E
+06:24:45.4497 [INFO] gpio: [cpu0: 0x1000035A] WriteUInt32 to 0x4 (DataOutput), value 0x6A
+06:24:45.4501 [INFO] gpio: [cpu0: 0x1000035A] WriteUInt32 to 0x4 (DataOutput), value 0x66
+06:24:45.4505 [INFO] gpio: [cpu0: 0x1000035A] WriteUInt32 to 0x4 (DataOutput), value 0x62
+06:24:45.4509 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4510 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4512 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4512 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4513 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4515 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4515 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4517 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4517 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4518 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4519 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4520 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4521 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4522 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4522 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4524 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4525 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4526 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4526 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4527 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4528 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4529 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4530 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4530 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4531 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4533 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4533 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4535 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4535 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4536 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4537 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4538 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4539 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4539 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4540 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4541 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4542 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4544 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4544 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4544 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4546 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4548 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4553 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4553 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4555 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4560 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0xAC
+06:24:45.4563 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4568 [INFO] gpio: [cpu0: 0x10000382] WriteUInt32 to 0x4 (DataOutput), value 0xA7
+06:24:45.4568 [INFO] gpio: [cpu0: 0x100002F4] WriteUInt32 to 0x4 (DataOutput), value 0x1B
+06:24:45.4570 [INFO] gpio: [cpu0: 0x10000342] WriteUInt32 to 0x4 (DataOutput), value 0x88
+06:24:45.4576 [INFO] mcu: Machine paused.
+06:24:45.4648 [INFO] mcu: Disposed.
