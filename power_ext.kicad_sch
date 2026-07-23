@@ -982,7 +982,7 @@
 		)
 	)
 	(global_label "VDD"
-		(shape output)
+		(shape input)
 		(at 154.94 88.9 90)
 		(fields_autoplaced yes)
 		(effects
@@ -993,11 +993,12 @@
 		)
 		(uuid "a5cb6d78-7bff-483a-8570-93c6d790c821")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 88.9 0)
+			(at 154.94 82.2862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1069,7 +1070,7 @@
 	)
 	(global_label "SDI"
 		(shape output)
-		(at 96.52 100.33 0)
+		(at 96.52 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1079,7 +1080,7 @@
 		)
 		(uuid "b9d1466f-5373-4298-9caf-8e3273f2478d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.5895 100.33 0)
+			(at 102.5895 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +1092,7 @@
 	)
 	(global_label "CLK"
 		(shape output)
-		(at 96.52 97.79 0)
+		(at 96.52 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1101,7 +1102,7 @@
 		)
 		(uuid "df9eeb32-2115-47a9-89d0-7f0ac6ca428c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.0733 97.79 0)
+			(at 103.0733 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1180,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 91.44 100.33 180)
+		(at 91.44 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1188,7 +1189,7 @@
 		(fields_autoplaced yes)
 		(uuid "158543df-d136-486d-90cc-63dc4777a882")
 		(property "Reference" "J6"
-			(at 91.44 93.98 0)
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1197,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 91.44 96.52 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1205,7 @@
 			)
 		)
 		(property "Footprint" "analog_NN:WireSolderPad_1.0mm"
-			(at 91.44 100.33 0)
+			(at 91.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +1214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 100.33 0)
+			(at 91.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1223,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 100.33 0)
+			(at 91.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1717,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 91.44 97.79 180)
+		(at 91.44 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1725,7 +1726,7 @@
 		(fields_autoplaced yes)
 		(uuid "57c59587-aa5f-4b70-94f5-79482455beeb")
 		(property "Reference" "J5"
-			(at 91.44 91.44 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1734,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 91.44 93.98 0)
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1742,7 @@
 			)
 		)
 		(property "Footprint" "analog_NN:WireSolderPad_1.0mm"
-			(at 91.44 97.79 0)
+			(at 91.44 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 97.79 0)
+			(at 91.44 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1760,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 97.79 0)
+			(at 91.44 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

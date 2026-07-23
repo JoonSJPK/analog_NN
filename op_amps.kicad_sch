@@ -2399,7 +2399,7 @@
 			)
 		)
 	)
-	(global_label "z1*"
+	(global_label "z2*"
 		(shape input)
 		(at 43.18 100.33 180)
 		(fields_autoplaced yes)
@@ -2883,7 +2883,7 @@
 			)
 		)
 	)
-	(global_label "z1*"
+	(global_label "z3*"
 		(shape input)
 		(at 43.18 148.59 180)
 		(fields_autoplaced yes)
@@ -3213,7 +3213,7 @@
 			)
 		)
 	)
-	(global_label "z1*"
+	(global_label "z4*"
 		(shape input)
 		(at 43.18 195.58 180)
 		(fields_autoplaced yes)
