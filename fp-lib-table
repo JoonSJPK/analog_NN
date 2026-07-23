@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "analog_NN")(type "KiCad")(uri "${KIPRJMOD}/analog_NN.pretty")(options "")(descr "Project-local footprints"))
+)

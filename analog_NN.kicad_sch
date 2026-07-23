@@ -90,8 +90,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 114.3)
-		(size 12.7 24.13)
+		(at 31.75 100.33)
+		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "702edd85-3e4b-44ec-b58a-808e908b41df")
 		(property "Sheetname" "shift_register_chain"
-			(at 48.26 113.5884 0)
+			(at 31.75 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "shift_register_chain.kicad_sch"
-			(at 48.26 139.0146 0)
+			(at 31.75 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127,6 +127,48 @@
 			(project "analog_NN"
 				(path "/8de080c9-ac72-4350-b5d3-2d90d26f0ccc"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 176.53)
+		(size 27.94 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76035772-1f9a-43b3-a4a4-128af9b5ca0d")
+		(property "Sheetname" "power_ext"
+			(at 55.88 175.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_ext.kicad_sch"
+			(at 55.88 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "analog_NN"
+				(path "/8de080c9-ac72-4350-b5d3-2d90d26f0ccc"
+					(page "10")
 				)
 			)
 		)
@@ -220,7 +262,7 @@
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke

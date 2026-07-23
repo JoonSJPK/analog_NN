@@ -689,6 +689,10 @@
     [
       "702edd85-3e4b-44ec-b58a-808e908b41df",
       "shift_register_chain"
+    ],
+    [
+      "76035772-1f9a-43b3-a4a4-128af9b5ca0d",
+      "power_ext"
     ]
   ],
   "text_variables": {}

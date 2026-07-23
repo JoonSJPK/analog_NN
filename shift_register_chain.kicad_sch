@@ -476,6 +476,117 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 102.87 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8142c4fb-3158-444a-9e5f-38b59f1f9c81")
+	)
+	(no_connect
+		(at 248.92 123.19)
+		(uuid "b7cb4c38-4049-4a05-8baf-2d675e1d1414")
 	)
 	(wire
 		(pts
@@ -486,6 +597,16 @@
 			(type default)
 		)
 		(uuid "040655e6-ce44-4f36-bb8f-1c974804fbc3")
+	)
+	(wire
+		(pts
+			(xy 102.87 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0821c0cd-8b42-45f0-8ca9-746da5cad3a6")
 	)
 	(wire
 		(pts
@@ -556,6 +677,16 @@
 			(type default)
 		)
 		(uuid "1ef1deaf-a9dc-4cfa-8d14-9b183f19f2fe")
+	)
+	(wire
+		(pts
+			(xy 99.06 107.95) (xy 102.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f50d94a-d1cb-4bde-935e-b13880182e3f")
 	)
 	(wire
 		(pts
@@ -753,7 +884,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 119.38 95.25 90)
 		(fields_autoplaced yes)
@@ -1501,7 +1632,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 120.65 30.48 90)
 		(fields_autoplaced yes)
@@ -1567,7 +1698,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 179.07 95.25 90)
 		(fields_autoplaced yes)
@@ -2029,7 +2160,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 60.96 30.48 90)
 		(fields_autoplaced yes)
@@ -2073,7 +2204,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 59.69 95.25 90)
 		(fields_autoplaced yes)
@@ -2141,7 +2272,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 109.22 107.95 180)
+		(at 99.06 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2151,7 +2282,7 @@
 		)
 		(uuid "b2abbc5b-0565-4aa8-852e-90abd12beebc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.6062 107.95 0)
+			(at 92.4462 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2490,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 49.53 107.95 180)
 		(fields_autoplaced yes)
@@ -2381,7 +2512,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 238.76 95.25 90)
 		(fields_autoplaced yes)
@@ -2469,7 +2600,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 180.34 30.48 90)
 		(fields_autoplaced yes)
@@ -2689,7 +2820,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "VDD"
 		(shape input)
 		(at 240.03 30.48 90)
 		(fields_autoplaced yes)
@@ -3116,7 +3247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 59.69 110.49 0)
 			(effects
 				(font
@@ -3561,7 +3692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 60.96 45.72 0)
 			(effects
 				(font
@@ -3646,6 +3777,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 102.87 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b6fca1f-0a47-4f29-acc4-05bdacc51288")
+		(property "Reference" "#FLG02"
+			(at 102.87 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 97.79 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e534009-36dc-44ed-8536-961635590972")
+		)
+		(instances
+			(project ""
+				(path "/8de080c9-ac72-4350-b5d3-2d90d26f0ccc/702edd85-3e4b-44ec-b58a-808e908b41df"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC595")
 		(at 119.38 110.49 0)
 		(unit 1)
@@ -3673,7 +3869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 119.38 110.49 0)
 			(effects
 				(font
@@ -3785,7 +3981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -3897,7 +4093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 120.65 45.72 0)
 			(effects
 				(font
@@ -4141,7 +4337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 238.76 110.49 0)
 			(effects
 				(font
@@ -4319,7 +4515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 240.03 45.72 0)
 			(effects
 				(font
@@ -4630,7 +4826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 180.34 45.72 0)
 			(effects
 				(font
