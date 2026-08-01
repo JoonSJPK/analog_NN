@@ -1665,7 +1665,7 @@
 			)
 		)
 	)
-	(global_label "Vu3"
+	(global_label "+Vu3"
 		(shape output)
 		(at 97.79 130.81 0)
 		(fields_autoplaced yes)
@@ -1677,7 +1677,7 @@
 		)
 		(uuid "62ef5d57-50b8-464e-9366-06fb45f4b909")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.2223 130.81 0)
+			(at 105.7947 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +1819,7 @@
 			)
 		)
 	)
-	(global_label "Vu2"
+	(global_label "+Vu2"
 		(shape output)
 		(at 97.79 87.63 0)
 		(fields_autoplaced yes)
@@ -1831,7 +1831,7 @@
 		)
 		(uuid "9c892a08-4584-4fee-bb01-e0be9a081afb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.2223 87.63 0)
+			(at 105.7947 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1841,7 @@
 			)
 		)
 	)
-	(global_label "Vu1"
+	(global_label "+Vu1"
 		(shape output)
 		(at 97.79 44.45 0)
 		(fields_autoplaced yes)
@@ -1853,7 +1853,7 @@
 		)
 		(uuid "9fc5263a-e908-49f3-a751-0f48c534c87b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.2223 44.45 0)
+			(at 105.7947 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
