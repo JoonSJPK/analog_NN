@@ -5889,7 +5889,7 @@
 			)
 		)
 	)
-	(global_label "+Vh4"
+	(global_label "Vh4_back"
 		(shape input)
 		(at 73.66 298.45 180)
 		(fields_autoplaced yes)
@@ -5901,7 +5901,7 @@
 		)
 		(uuid "1b512d1b-37a5-4c87-8cbc-5e8f544cdca3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6553 298.45 0)
+			(at 61.8454 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7253,7 +7253,7 @@
 			)
 		)
 	)
-	(global_label "+Vh1"
+	(global_label "Vh1_back"
 		(shape input)
 		(at 73.66 96.52 180)
 		(fields_autoplaced yes)
@@ -7265,7 +7265,7 @@
 		)
 		(uuid "a08c5d17-c9d6-4d7f-8478-6671251f3992")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6553 96.52 0)
+			(at 61.8454 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,7 +7957,7 @@
 			)
 		)
 	)
-	(global_label "+Vh3"
+	(global_label "Vh3_back"
 		(shape input)
 		(at 73.66 231.14 180)
 		(fields_autoplaced yes)
@@ -7969,7 +7969,7 @@
 		)
 		(uuid "d0a09eb3-a42c-49f1-abdd-8c5e55b2571b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6553 231.14 0)
+			(at 61.8454 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,7 +8199,7 @@
 			)
 		)
 	)
-	(global_label "+Vh2"
+	(global_label "Vh2_back"
 		(shape input)
 		(at 73.66 163.83 180)
 		(fields_autoplaced yes)
@@ -8211,7 +8211,7 @@
 		)
 		(uuid "f58b92f3-c21a-4cc4-8c72-c61aabeb0911")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6553 163.83 0)
+			(at 61.8454 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
