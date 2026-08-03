@@ -1,0 +1,24 @@
+# JLCPCB part mapping — the human-maintained source of truth for LCSC part numbers.
+# The exporter matches each placed component to the FIRST row here whose
+#   match_package is a PREFIX of the component's footprint name AND
+#   match_value is "*" (any) or equals the component's schematic Value.
+# Put specific-value rows ABOVE wildcard ("*") rows for the same package.
+#
+# Columns:
+#   match_value   schematic Value to match, or "*" for any
+#   match_package footprint-name prefix to match (KiCad footprint without the "lib:" part)
+#   comment       BOM "Comment" text emitted for this part (canonical, overrides blank/odd sch values)
+#   lcsc          LCSC part number (JLCPCB). Leave blank to force a "no part" warning.
+#   jlc_class     Basic / Extended (informational; Extended parts incur a feeder fee)
+#   assemble      yes = include in BOM+CPL, no = mechanical/hand-solder, excluded from assembly
+#   rot_offset    degrees added to KiCad rotation for JLCPCB (default 0; VERIFY in JLC preview)
+#   notes         free text
+match_value,match_package,comment,lcsc,jlc_class,assemble,rot_offset,notes
+1uF,C_1206,1uF 50V X7R 1206,C1848,Basic,yes,0,Samsung CL31B105KBHNNNE (verified on LCSC)
+100nF,C_1206,100nF 50V X7R 1206,C24497,Basic,yes,0,Samsung CL31B104KBCNNNC (verified on LCSC)
+10k,R_1206,10k 1% 1206,C17902,Basic,yes,0,UNI-ROYAL 1206W4F1002T5E (verified on LCSC)
+10M,R_1206,10M 1% 1206,C26119,Basic,yes,0,UNI-ROYAL 1206W4F1005T5E (verified on LCSC)
+AD5160,SOT-23-8,AD5160BRJZ10-RL7,C40097,Extended,yes,180,256-tap 10k digipot; 100k variant = C578141
+74HC595,SOIC-16,SN74HC595 shift register,C5947,Basic,yes,270,Nexperia 74HC595D Basic; TI SN74HC595DR = C10092
+*,SOT-23-5,TLV9061IDBVR,C398358,Extended,yes,270,op-amp; sch value blank on U1..U27 — mapped by package
+*,WireSolderPad,Wire solder pad,,,no,0,mechanical hand-solder pad — not JLC-assembled
